@@ -29,13 +29,12 @@
         private void InitializeComponent()
         {
             btnThread = new Button();
-            //threadText = new TextBox();
             threadRichText = new RichTextBox();
             SuspendLayout();
             // 
             // btnThread
             // 
-            btnThread.Location = new Point(241, 111);
+            btnThread.Location = new Point(435, 166);
             btnThread.Name = "btnThread";
             btnThread.Size = new Size(75, 23);
             btnThread.TabIndex = 0;
@@ -43,14 +42,11 @@
             btnThread.UseVisualStyleBackColor = true;
             btnThread.Click += btnThread_Click;
             // 
-            // threadText
-            // removed thread TEXT
-            // 
             // threadRichText
             // 
-            threadRichText.Location = new Point(241, 244);
+            threadRichText.Location = new Point(198, 81);
             threadRichText.Name = "threadRichText";
-            threadRichText.Size = new Size(209, 96);
+            threadRichText.Size = new Size(231, 297);
             threadRichText.TabIndex = 3;
             threadRichText.Text = "";
             // 
@@ -60,12 +56,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(threadRichText);
-            //Controls.Add(threadText);
             Controls.Add(btnThread);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
