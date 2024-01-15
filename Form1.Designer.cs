@@ -44,12 +44,7 @@
             btnThread.Click += btnThread_Click;
             // 
             // threadText
-            // 
-            threadText.Location = new Point(241, 202);
-            threadText.Name = "threadText";
-            threadText.Size = new Size(179, 23);
-            threadText.TabIndex = 2;
-            threadText.Text = " ";
+            // removed thread TEXT
             // 
             // threadRichText
             // 
@@ -76,7 +71,7 @@
         #endregion
 
         private Button btnThread;
-        private TextBox threadText;
+        //private TextBox threadText;
         private RichTextBox threadRichText;
     }
 }
