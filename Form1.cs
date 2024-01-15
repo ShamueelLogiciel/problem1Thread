@@ -16,7 +16,7 @@ namespace problem1Thread
             {
                 appendingText += $"Thread number is {Thread.CurrentThread.GetHashCode()}\n";
                 threadRichText.Text = appendingText;
-                //threadRichText.AppendText(threadRichText.Text = $"Thread number is {Thread.CurrentThread.GetHashCode()}");
+                
             }
             Random rand = new Random();
             int n = rand.Next(1,6);
