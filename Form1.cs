@@ -14,7 +14,7 @@ namespace problem1Thread
         {
             void printFunc()
             {
-                appendingText += $"Thread number is {Thread.CurrentThread.GetHashCode()}\n";
+                appendingText += $"Hello, My Thread ID is : {Thread.CurrentThread.GetHashCode()}\n";
                 threadRichText.Text = appendingText;
                 
             }
