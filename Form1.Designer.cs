@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnThread = new Button();
-            threadText = new TextBox();
+            //threadText = new TextBox();
             threadRichText = new RichTextBox();
             SuspendLayout();
             // 
@@ -60,7 +60,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(threadRichText);
-            Controls.Add(threadText);
+            //Controls.Add(threadText);
             Controls.Add(btnThread);
             Name = "Form1";
             Text = "Form1";
