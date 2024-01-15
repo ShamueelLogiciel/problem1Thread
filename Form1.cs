@@ -33,11 +33,5 @@ namespace problem1Thread
             t1.Start();
         }
 
-        private static void printFunc1()
-        {
-
-        }
-
-
     }
 }
